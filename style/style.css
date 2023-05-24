@@ -22,6 +22,11 @@ body {
 
   .right-column {
     width: 80%;
+    flex-direction: column;
+    background-color: rgb(255, 161, 151);
+    border-right: 3px solid rgb(255, 161, 151);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 40px;
   }
 
 
@@ -46,7 +51,7 @@ body {
   }
 
   .bottom-section {
-    height: 400px;
+    height: auto;
     background-color: rgb(255, 214, 197);
     border-bottom: 5px solid rgb(255, 214, 197);
     border-bottom-left-radius: 35px;
@@ -68,5 +73,7 @@ body {
     height: 80%;
     object-fit: contain;
     object-position: bottom;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-right: auto;
+
 }
